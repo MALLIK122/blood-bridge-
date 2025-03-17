@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Black background */
+  color: white; /* Default text color is white */
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: black; /* Black background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid red; /* Red border at the bottom */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white; /* White link text */
+}
+
+.nav-link:hover {
+  color: red; /* Red on hover */
+}
+
+/* Main Content */
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.col-md-4 {
+  width: 30%;
+}
+
+.card {
+  border: 1px solid #333; /* Darker border for cards */
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* White shadow */
+  background-color: #111; /* Dark background for cards */
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 15px;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-danger:hover {
+  background-color: darkred;
+}
+
+/* Blood Donor Camps */
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.d-flex img {
+  width: 200px;
+  margin: 0 10px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+  border-top: 2px solid red;
+}
